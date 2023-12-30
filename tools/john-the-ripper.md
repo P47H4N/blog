@@ -22,7 +22,7 @@ John the Ripper (JtR) is a password-cracking tool. It is helpful for penetration
 
 Installation Command: `sudo apt install john`
 
-## Basic Syntex
+## Basic Syntax
 
 Get Help: `john -h`
 
@@ -36,7 +36,7 @@ Increment Mode: `john -i:digits pass.txt`
 
 For normal crack, we will use wordlist or dictionary mode. 
 
-> **Syntext:** `john --wordlist=rockyou.txt --format=raw-md5 pass.txt`
+> **Syntax:** `john --wordlist=rockyou.txt --format=raw-md5 pass.txt`
 > 
 
 Here, `john` indicates the tool name. `--wordlist=` indicates the wordlist that contains many passwords. We can use rockyou.txt by default. 
